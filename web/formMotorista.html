@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de Motorista</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="mostraMotorista.jsp" method="POST">
+            nome:<br>
+            <input type="text" name="nome" size="50" maxlength="100" required>
+            <br>
+            RG:<br>
+            <input type="number" name="rg" required=""><br>
+            CPF:<br>
+            <input type="number" name="cpf" required=""><br>
+            Telefone:<br>
+            <input type="number" name="telefone" required=""><br>
+            Endereço:<br>
+            <input type="text" name="local" size="50" maxlength="100" required><br>
+            
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </body>
+</html>
